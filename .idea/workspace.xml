@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="094f530d-400b-41e8-bbde-384d112cb350" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/untranslated.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/untranslated/spy.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/fallback_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untranslated.en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untranslated.this.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/untranslated.rb" afterPath="$PROJECT_DIR$/lib/untranslated.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untranslated.gemspec" afterPath="$PROJECT_DIR$/untranslated.gemspec" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untranslated.this.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/fallback_spec.rb" afterPath="$PROJECT_DIR$/spec/fallback_spec.rb" />
     </list>
     <ignored path="untranslated.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="untranslated.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="untranslated.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/untranslated.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="162" selection-end="162" vertical-scroll-proportion="0.44973546">
+            <state line="10" column="20" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fallback_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fallback_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/fallback_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+            <state line="6" column="32" selection-start="142" selection-end="142" vertical-scroll-proportion="0.26984128">
               <folding />
             </state>
           </provider>
@@ -85,7 +71,7 @@
       <file leaf-file-name="spy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/untranslated/spy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="3" selection-start="874" selection-end="874" vertical-scroll-proportion="-10.096774">
+            <state line="7" column="50" selection-start="153" selection-end="182" vertical-scroll-proportion="-3.8387096">
               <folding />
             </state>
           </provider>
@@ -114,12 +100,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/fallback_spec.rb" />
         <option value="$PROJECT_DIR$/lib/untranslated/fallback_catcher.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/untranslated.gemspec" />
         <option value="$PROJECT_DIR$/lib/untranslated/spy.rb" />
         <option value="$PROJECT_DIR$/lib/untranslated.rb" />
+        <option value="$PROJECT_DIR$/spec/fallback_spec.rb" />
       </list>
     </option>
   </component>
@@ -415,20 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/fallback_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="9" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
@@ -445,14 +417,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/untranslated/spy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="3" selection-start="874" selection-end="874" vertical-scroll-proportion="-10.096774">
+        <state line="7" column="50" selection-start="153" selection-end="182" vertical-scroll-proportion="-3.8387096">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/untranslated.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="162" selection-end="162" vertical-scroll-proportion="0.44973546">
+        <state line="10" column="20" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/fallback_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="142" selection-end="142" vertical-scroll-proportion="0.26984128">
           <folding />
         </state>
       </provider>
