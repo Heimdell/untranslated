@@ -1,5 +1,11 @@
-require "untranslated/version"
+require 'i18n'
 
 module Untranslated
-  # Your code goes here...
+  autoload :Spy, "untranslated/spy"
+
+  def self.install
+    ::I18n.exception_handler = Spy.new
+  end
 end
+
+Untranslated.install

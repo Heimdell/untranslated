@@ -12,8 +12,11 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = ""
 
+  gem.add_dependency "i18n"
+  gem.add_dependency "hash-deep-merge"
+
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.test_files    = gem.files.grep(%r{^(spec|spec|features)/})
   gem.require_paths = ["lib"]
 end

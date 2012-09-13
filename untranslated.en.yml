@@ -1,0 +1,6 @@
+---
+en:
+  this:
+    key:
+      not:
+        exist: ''
