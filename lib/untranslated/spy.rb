@@ -21,9 +21,9 @@ module Untranslated
 
       reverse_path = path.reverse
 
-      reverse_path.inject('') do |k, hash|
+      reverse_path.inject('') do |hash, k|
         out = {}
-        out[hash] = k
+        out[k] = hash
         out
       end
     end
