@@ -2,26 +2,18 @@ module Untranslated
 
   class Spy < ::I18n::ExceptionHandler
 
-    def initialize
-      at_exit do
-        keys.each do |locale, key|
-          ::File.open("untranslated.#{locale}.yml", 'w') do |f|
-            prefixed = {}
-            prefixed[locale] = key
-            f.write(prefixed.to_yaml)
-          end
-        end
-      end
-    end
+    def call(exception, locale, key, options)
+      push locale, key
 
-    def keys
-      @keys ||= {}
+      super(exception, locale, key, options)
     end
 
     def push locale, key
       path = [locale, key].join ::I18n.default_separator
       packed = pack path
       keys.deep_merge! packed
+
+      cached_store key
     end
 
     def pack key
@@ -36,11 +28,36 @@ module Untranslated
       end
     end
 
-    def call(exception, locale, key, options)
-      push locale, key
+    def cached_store key
+      @cache ||= {}
 
-      super(exception, locale, key, options)
+      store unless @cache[key]
+
+      @cache[key] ||= true
     end
+
+    def store
+      ensure_log_dir_exist
+
+      keys.each do |locale, key|
+        ::File.open("./log/untranslated.#{locale}.yml", 'w') do |f|
+          prefixed = {}
+          prefixed[locale] = key
+          f.write(prefixed.to_yaml)
+        end
+      end
+    end
+
+    def ensure_log_dir_exist
+      return if Dir.exist? './log'
+
+      Dir.mkdir './log'
+    end
+
+    def keys
+      @keys ||= {}
+    end
+
   end
 
 end

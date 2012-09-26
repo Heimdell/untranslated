@@ -1,0 +1,14 @@
+---
+en:
+  this:
+    key:
+      not:
+        exist: ''
+        existent:
+          too: ''
+    is:
+      same: ''
+  just:
+    trying:
+      to:
+        test: ''
