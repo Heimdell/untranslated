@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Untranslated::VERSION
   gem.authors       = ["Heimdell"]
   gem.email         = ["hindmost.one@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "This gem sniffers your untranslated keys and store them as they come to ./log"
+  gem.summary       = "Detector of untranslated keys."
   gem.homepage      = ""
 
   gem.add_dependency "i18n"
