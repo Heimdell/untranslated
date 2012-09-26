@@ -1,5 +1,8 @@
 ---
 en:
+  '':
+    what: ''
+  unary_test: ''
   this:
     key:
       not:
