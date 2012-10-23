@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    untranslated (1.0.0)
+    untranslated (1.0.2)
       hash-deep-merge
       i18n
 

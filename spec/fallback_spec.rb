@@ -4,7 +4,6 @@ describe Untranslated do
   it "should save all keys, untranslated by I18n" do
     Untranslated.install
 
-    ::I18n.t ".what"
     ::I18n.t "unary_test"
     ::I18n.t "this.key.not.exist"
     ::I18n.t "this.key.not.existent.too"
@@ -17,7 +16,6 @@ describe Untranslated do
 
     hash.should == {
         'en' => {
-            'what' => '',
             'unary_test' => '',
             'this' => {
                 'key' => {

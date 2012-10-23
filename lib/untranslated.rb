@@ -7,3 +7,5 @@ module Untranslated
     ::I18n.exception_handler = Spy.new
   end
 end
+
+Untranslated.install
